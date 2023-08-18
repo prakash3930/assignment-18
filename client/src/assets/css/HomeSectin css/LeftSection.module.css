@@ -1,0 +1,48 @@
+.left{
+    min-width: 250px;
+    position: fixed;
+    left: 31px;
+    top: 130px;
+    min-height: 85vh;
+    border: 1px solid rgb(44, 39, 39);
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.one h1{
+    font-weight: 600;
+    font-size:18px;
+    padding-bottom: 10px;
+}
+.one h3{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.one hr{
+    margin-top: 15px;
+    border-width: 1px;
+    border-color: rgba(90, 84, 84, 0.474);
+}
+.two{
+    display: flex;
+    padding-top: 25px;
+}
+.two a{
+    cursor: pointer;
+    font-size: 25px;
+    color: #100f0f;
+}
+.two a:nth-child(2){
+    margin: 0px 20px;
+}
+.there{
+    position: relative;
+    bottom: -300px;
+}
+.there h3{
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,72 @@
+.main_div{
+    width: 97%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    position: fixed;
+    top: 25px;
+    background-color: rgb(209 211 213);
+    z-index: 99;
+}
+.one{
+    cursor: pointer;
+}
+.two{
+    border: 1px solid rgb(37, 30, 30);
+    border-radius: 10px;
+    padding: 4px 15px; 
+    cursor: pointer;
+}
+.two input{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-left: 10px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: black;
+}
+.two input:focus{
+    outline: none;
+}
+.there button{
+    border: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.there button .FontAwesomeIcon{
+    padding-left: 5px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animat{
+    width: 50%;
+    position: absolute;
+    padding: 6px 25px;
+    top: 18px;
+    background-color: rgb(209 211 213);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.animat input{
+    width: 90%;
+    font-size: 18px;
+}
+.animat button{
+    position: absolute;
+    right: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 10px;
+}
